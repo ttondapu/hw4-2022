@@ -159,21 +159,6 @@ first div in the grid  and place it in the grid. */
   grid-row: 2 / span 1;
  }
 
- .method {
-  grid-column: 2 / span 1;
-  grid-row: 3 / span 1;
-}
-
-.clients {
-  grid-column: 2 / span 1;
-  grid-row: 4 / span 1;
-}
-
-.contact {
-  grid-column: 2 / span 1;
-  grid-row: 5 / span 1;
-}
-
  .about-image {
    max-height: 600px;
    grid-column: 1 / -1;
@@ -181,11 +166,21 @@ first div in the grid  and place it in the grid. */
    grid-row-start: 2;
  }
 
- .method-image {
-  max-height: 600px;
-  grid-column: 1 / -1;
-  overflow: hidden;
-  grid-row-start: 3;
+ .method {
+  grid-column: 2 / span 1;
+  grid-row: 3 / span 1;
+}
+
+.method-image {
+ max-height: 600px;
+ grid-column: 1 / -1;
+ overflow: hidden;
+ grid-row-start: 3;
+}
+
+.clients {
+  grid-column: 2 / span 1;
+  grid-row: 4 / span 1;
 }
 
 .clients-image {
@@ -193,6 +188,11 @@ first div in the grid  and place it in the grid. */
   grid-column: 1 / -1;
   overflow: hidden;
   grid-row-start: 4;
+}
+
+.contact {
+  grid-column: 2 / span 1;
+  grid-row: 5 / span 1;
 }
 
 .contact-image {
@@ -216,7 +216,7 @@ first div in the grid  and place it in the grid. */
   /* Move the navigation so that the nav is aligned to the other side of the window 
   and has a padding of 30px on the top and bottom and 0 on the left and right. */
   nav {
-    align-self: right;
+    text-align: right;
     padding: 30px 0px 30px 0px;
   }
 
